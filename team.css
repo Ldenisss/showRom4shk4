@@ -61,8 +61,11 @@
 .team__text-profession {
 	font-weight: bold;
 	font-size: 14;
-	color: #4b73b5;
+	color: #CC0000;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 10px;
+}
+.shower.list .slide.active{
+	box-shadow: 0 0 0 1px #CC0000, 0 0 0 20px #CC0000, 0 20px 50px rgba(0, 0, 0, 0.3);
 }

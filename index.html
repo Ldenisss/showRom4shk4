@@ -16,12 +16,11 @@
 <body class="shower list">
 
     <header class="caption">
-        <h1>Разработка Web-приложения с помощью SPA</h1>
+        <h1>Разработка Web-приложения с использованием технологии SPA</h1>
     </header>
 
     <section class="slide" id="cover">
-        <h2>Разработка приложения с помощью SPA</h2>
-        <p>By Rom4shk4</a></p>
+        <h2>Разработка приложения с использованием технологии SPA</h2>
         <figure>
             
             <figcaption class="copyright right white">
@@ -31,7 +30,7 @@
         </figure>
         <style>
             #cover h2 {
-                margin: 30px 0 0;
+                margin: 150px 0 0;
                 color: rgb(0, 0, 0);
                 text-align: center;
                 font-size: 70px;
@@ -48,21 +47,35 @@
             #cover p a {
                 color: white;
             }
+            
+            .progress::before{
+                background:#CC0000;
+            }
+            .slide h2{
+                color: black;
+            }
+            .custom{
+                font-size: 2rem;
+            }
         </style>
     </section>
 
     <section class="slide">
         <h2>Цели проекта</h2>
-        <ol>
-            <li>Показать технологию</li>
-            <li>Показать возможность кросплатформеной разработки</li>
+        <ol class="custom">
+            <li>Изучение технологии SPA</li>
+            <li>Разработка приложения, использующего технологию</li>
+            <li>Адаптация приложения под конкретные бизнес-процессы</li>
+            <li>Презентация проекта потенциальным партнерам</li><!--Я не знаю, стоит это писать вообще или нет-Н. -->
         </ol>
     </section>
 
     <section class="slide">
         <h2>Преимущества</h2>
-        <ol>
-            <li class="money">Технология &nbsp; <span> 0 </span>  &nbsp; руб </li>
+        <ol class="custom">
+            <li>Не требует покупки программного обеспечения</li>
+            <li>Удобно и легко поддерживается разработчиками</li>
+            <li>Удобное взаимодействие пользователя с приложением</li>
         </ol>
         <style>
             span {
@@ -108,7 +121,7 @@
     </section>
 
     <section class="slide">
-        <h2>Команда</h2>
+        <h2>Команда разработки</h2>
             <div class="team__body">
                 <ul class="team__body">
                     <!--team 1-->
@@ -122,9 +135,6 @@
                                 <div class="team__text-name">
                                     Федоркий Алексей
                                 </div>
-                                <div class="team__text-profession">
-                                    Backend разработчик
-                                </div> 
                             </div>
                         </div>
                     </li>
@@ -138,9 +148,6 @@
                                     <div class="team__text-name">
                                         Лепин Денис
                                     </div>
-                                    <div class="team__text-profession">
-                                        Frontend разработчик
-                                    </div> 
                                 </div>
                             </div>
                     </li>
@@ -152,11 +159,8 @@
                                 </div>
                                 <div class="team__text">
                                     <div class="team__text-name">
-                                        Болдарев Никита
+                                        Болдырев Никита
                                     </div>
-                                    <div class="team__text-profession">
-                                        Главный пилот
-                                    </div> 
                                 </div>
                             </div>
                     </li>
@@ -170,12 +174,24 @@
                                     <div class="team__text-name">
                                         Горностаев Алексей
                                     </div>
-                                    <div class="team__text-profession">
-                                        Главный пилот
-                                    </div> 
                                 </div>
                             </div>
                     </li>
+                    <!---------------------------EMPTY TEAMMATE---------------------------------->
+                    <li class="team__list">
+                            <div class="team__container">
+                                <div class="team__icon team__icon--Alex">
+                                    <img class="team__img" src="pictures/evg.jpg" alt="">
+                                    
+                                </div>
+                                <div class="team__text">
+                                    <div class="team__text-name">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!------------------------------------------------------------->
                     <li class="team__list">
                             <div class="team__container">
                                 <div class="team__icon team__icon--Alex">
@@ -186,13 +202,10 @@
                                     <div class="team__text-name">
                                         Евгений Маслов
                                     </div>
-                                    <div class="team__text-profession">
-                                        Главный пилот
-                                    </div> 
                                 </div>
                             </div>
                         </li>
-                        <li class="team__list">
+                       <!-- <li class="team__list">
                                 <div class="team__container">
                                     <div class="team__icon team__icon--Alex">
                                         <img class="team__img" src="pictures/yana1.jpg" alt="">
@@ -202,39 +215,17 @@
                                         <div class="team__text-name">
                                             Ерошенко Яна
                                         </div>
-                                        <div class="team__text-profession">
-                                            Главный пилот
-                                        </div> 
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
                 </ul>
             </div>
             
     </section>
-    <section class="slide">
-            <div class="wrap">
-                <div class="text">
-                    Спасибо за внимние !
-                </div>
-            </div>
-            <style>
-                .wrap{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100%;
-                    height: 100%;
-                }
-                .text {
-                    font-weight: bold;
-                }
-            </style>
+    <section class="slide last_slide" id="cover">
+                    <h2>Спасибо за внимние !</h2>
     </section>
-    
-
     <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
     </footer>
 
     <div class="progress"></div>
